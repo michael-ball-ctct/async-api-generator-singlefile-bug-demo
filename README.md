@@ -1,6 +1,6 @@
 # async-api-generator-singlefile-bug-demo
 
-A minimal reproduction of the inconsistent behaviour of @asyncapi/generator behaviour with `singleFile` option.
+A minimal reproduction of the inconsistent behaviour of @asyncapi/generator behaviour with `singleFile` option (using the @asyncapi/html-template).
 
 ## To run:
 ```
