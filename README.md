@@ -1,0 +1,1 @@
+# async-api-generator-singlefile-bug-demoasync-api-generator-singlefile-bug-demo
