@@ -1,0 +1,21 @@
+{
+  "name": "async-api-generator-singlefile-bug-demo",
+  "type": "module",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node --import=tsx index.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "github.com/michael-ball-ctct/async-api-generator-singlefile-bug-demo "
+  },
+  "author": "michael-ball-ctct",
+  "license": "ISC",
+  "dependencies": {
+    "@asyncapi/generator": "2.7.0",
+    "@asyncapi/parser": "3.4.0",
+    "tsx": "4.20.3"
+  }
+}

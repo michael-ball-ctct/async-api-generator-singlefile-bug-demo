@@ -1,0 +1,34 @@
+asyncapi: '3.0.0'
+info:
+  title: Demo
+  version: '0.0.0'
+  description: A demo SsyncAPI
+
+servers:
+  demo:
+    host: server.url
+    protocol: mqtt
+    protocolVersion: "5.0"
+    title: Demo API
+
+channels:
+  demo-channel:
+    messages:
+      demo:
+        $ref: '#/components/messages/demo-message'
+
+components:
+  messages:
+    demo-message:
+      name: demo-message
+      title: I am a demo message
+      contentType: application/json
+      payload:
+        $ref: '#/components/schemas/demo-content-schema'
+
+  schemas:
+    demo-content-schema:
+      properties:
+        content:
+          type: string
+          description: "Content of a demo message"
